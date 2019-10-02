@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/burger"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="Welcome to BurgWelt"
+        android:textColor="#fff"
+        android:textSize="35sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:background="#000"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="\t\t\tWe make the most delicious\nhamburgers in the city. Once you taste it\nyou can never forget its tender and\nrich flavour.\nDELIVERY IS FREE!\nORDER NOW AND ENJOY!\n:)"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Steiner 666\nCall: +46-677-893-97"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:background="#000"
+        android:padding="7dp"/>
+</RelativeLayout>

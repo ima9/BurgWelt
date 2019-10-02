@@ -1,0 +1,4 @@
+#Wed Oct 02 15:08:28 KGT 2019
+base.0=/Users/itlabadmin/Desktop/Iman/BurgWelt/app/build/intermediates/transforms/dexMerger/debug/8
+path.0=classes.dex
+renamed.0=classes.dex
